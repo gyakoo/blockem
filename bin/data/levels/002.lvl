@@ -1,0 +1,19 @@
+INFO = { "name" : "Passage" }
+MAP = [ "                    ",
+        " s      wwwll1      ",
+        "llllw0ww     rww  ww",
+        "        ww       2r ",
+        "  w          0   l  ",
+        "   w     wlllllll   ",
+        "    w  y            ",
+        "            1ww0    ",        
+        "                    ",
+        " 2  2 l      ww     ",
+        "  ww  l      ww     ",
+        "llll ll    rrwwrr   ",
+        "w          l    l   ",
+        "w  r            l   ",
+        "llllllll     llllll " ]
+MAPDEFS = { "0" : ("m", ["BhMoverBlock(actor,1,32,0,1)"]),
+            "1" : ("m", ["BhMoverBlock(actor,1,32,0,-1)"]),
+            "2" : ("m", ["BhMoverBlock(actor,1,64,1,0)"])            }

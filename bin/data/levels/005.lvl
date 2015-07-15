@@ -1,0 +1,23 @@
+INFO = { "name" : "Starting" }
+MAP = [ "                    ",
+        "s                 b ",
+        "l                bw ",
+        "w                bw ",
+        "w   22    33     bw ",        
+        "w                bw ",
+        "w       5        bw ",
+        " lllbbllllbbblblbb  ",
+        "    00    111       ",        
+        "                    ",
+        "        4           ",
+        "                    ",
+        "     www            ",
+        "           yl       ",
+        " www wwww   l  ll l " ]
+MAPDEFS = { "0" : ( "k", ["BhAlternateDeath(actor,'kblock', 'kblock2',1,1)", "BhMoverBlock(actor, 1,32,1,0)"] ),
+            "1" : ( "k", ["BhAlternateDeath(actor,'kblock', 'kblock2',2,1)"] ),
+	    "2" : ( "a", ["BhTurningBlock(actor,2,90)"] ),
+	    "3" : ( "a", ["BhTurningBlock(actor,2,-90)"] ),
+	    "4" : ( "a", ["BhTurningBlock(actor,1,45)"] ),
+	    "5" : ( "a", ["BhMoverBlock(actor,2,128,1,0)", "BhTurningBlock(actor,2,180)"] ),
+	  }

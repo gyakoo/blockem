@@ -1,0 +1,27 @@
+INFO = { "name" : "Orgy" }
+MAP = [ "s       rrrrrr      ",
+        "l      3     3      ",
+        "   1    rrrrrr l    ",
+        "   2    ll     l    ",
+        " r     lwwl  34l    ",
+        "     blwbbwlb       ",
+        "    bwwbbbbwwb   5  ",
+        "y      p00p        y",        
+        "w6      pp        7w",
+        "wwy              yww",
+        "        ww          ",
+        "   0   wwww    0  l ",
+        "  0w           w0 l ",
+        "                 3  ",
+        "brrbrrbbbbbbbbrrbrrb" ]
+MAPDEFS = { 
+"0" : ( "k", ["BhAlternateDeath(actor,'kblock','kblock2',2,2)"] ),
+"1" : ( "m", ["BhMoverBlock(actor,1,64,1,0)"]),
+"2" : ( "m", ["BhMoverBlock(actor,1,64,0,1)"]),
+"3" : ( "a", ["BhTurningBlock(actor,1,45,pow=1000)"]),
+"4" : ( "r", ["BhMoverBlock(actor,1,32,0,1)"]),
+"5" : ( "a", ["BhTurningBlock(actor,2,180)","BhMoverBlock(actor,1,64,1,0)"]),
+"6" : ( "y", ["BhMoverBlock(actor,1,32,1,0)"]),
+"7" : ( "y", ["BhMoverBlock(actor,1,32,-1,0)"]),
+
+}

@@ -1,0 +1,19 @@
+INFO = { "name" : "Disturbing" }
+MAP = [ "                    ",
+        "         s          ",
+        "        lll         ",
+        "                    ",
+        "                    ",
+        "w      wwwww       w",
+        "         w          ",
+        "      1 wr  0       ",        
+        "        rw          ",
+        "w      wwwww       w",
+        "                    ",
+        "                    ",
+        "                    ",
+        "         2          ",
+        "     l rwwwr l      " ]
+MAPDEFS = { "0" : ("m", ["BhMoverBlock(actor,4,128,0,1)"]),
+            "1" : ("m", ["BhMoverBlock(actor,4,128,0,-1)"]),
+            "2" : ("m", ["BhMoverBlock(actor,4,130,1,0)"])            }
